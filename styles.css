@@ -1,13 +1,13 @@
 @font-face {
   font-family: "Coves";
-  src: url("./assets/Coves-Light.ttf") format("ttf");
+  src: url("./assets/Coves-Light.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Litsans";
-  src: url("./assets/LitSans-Medium.ttf") format("ttf");
+  src: url("./assets/LitSans-Medium.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
