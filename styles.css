@@ -501,7 +501,6 @@ li span {
 }
 
 .asso-card {
-
   width: 120px;
   height: 120px;
   background-image: url(https://www.icmif.org/sites/default/files/styles/inline_left/public/Ross%20Dawson%20news.jpg?itok=b_xYKzNZ);
@@ -518,17 +517,12 @@ li span {
 
 /* Team styles */
 
-.team-section {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  background-color: #f2f2f2;
-  align-items: center;
+#team {
+  margin-bottom: 200px;
   position: relative;
-  margin-bottom: 150px;
 }
 
-.team-section::before {
+#team::before {
   content: "";
   position: absolute;
   top: -200px;
@@ -539,7 +533,7 @@ li span {
   clip-path: polygon(0 0, 0 100%, 100% 100%);
 }
 
-.team-section::after {
+#team::after {
   content: "";
   position: absolute;
   bottom: -150px;
@@ -550,49 +544,7 @@ li span {
   clip-path: polygon(100% 0, 0 0, 50% 100%);
 }
 
-.team-title {
-  color: #e68625;
-  font-family: Litsans;
-  font-size: 2.5em;
-  margin: 1em 0 2em;
-}
-
-.team-card-wrapper {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-.team-card {
-  width: 250px;
-  height: 300px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: #444141d3;
-  background-image: url(https://www.icmif.org/sites/default/files/styles/inline_left/public/Ross%20Dawson%20news.jpg?itok=b_xYKzNZ);
-  color: #e68625;
-  background-blend-mode: multiply;
-
-  margin: 1em;
-  background-size: cover;
-
-  transition: 0.2s transform ease-in-out;
-}
-
-.team-card:hover {
-  transform: scale(0.9);
-}
-
-.team-name {
-  margin: 0 1em 1.3em;
-  font-size: 1.4em;
-}
-.team-info {
-  color: white;
-  margin: 0 1em;
-  font-size: 1.1em;
-}
+/* ----------Footer styles----------- */
 
 .footer-section {
   display: flex;
@@ -625,8 +577,6 @@ li span {
   clip-path: polygon(0 0, 0 100%, 50% 100%);
 }
 
-
-
 /* contact section */
 
 .contact-form {
@@ -650,7 +600,6 @@ li span {
   background: #0e0e11;
   clip-path: polygon(0 100%, 100% 100%, 100% 0);
 }
-
 
 /* media queries */
 
@@ -731,13 +680,9 @@ li span {
     flex-direction: column;
     justify-content: center;
   }
-
 }
 
-
-
-
-.facebook-icon{
+.facebook-icon {
   height: 40px;
   width: 40px;
   margin-bottom: 10px;
